@@ -15,4 +15,4 @@ jobs:
 
       - name: Run a one-line script
 
-        run: echo "::error file=.github\workflows\test.yml,line=10,col=4::some issue (sample-linter)"
+        run: echo "::error file=.github\\workflows\\test.yml,line=10,col=4::some issue (sample-linter)"
